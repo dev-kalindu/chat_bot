@@ -3,4 +3,4 @@
 source .venv/bin/activate
 
 # Run Flask app
-python3 api.py
+python api.py
