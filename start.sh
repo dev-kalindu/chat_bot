@@ -1,6 +1,11 @@
-#!/bin/bash
-# Activate virtual environment if needed
-source .venv/bin/activate
+#!/usr/bin/env bash
 
-# Run Flask app
-python api.py
+# -------------------------------
+# Start script for Flask + React
+# -------------------------------
+
+# Optional: print info
+echo "Starting Flask backend..."
+
+# Use python3 directly (Railpack provides system Python)
+python3 api.py
